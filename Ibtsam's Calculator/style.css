@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-image: url(sky-background.jpg);
+}
+
+h1 {
+  width: 250px;
+  padding: 20px;
+  margin: 20px auto; 
+  border: 2px solid rgb(255, 254, 254);
+  border-radius: 9px;
+  background-color: transparent;
+  text-align: center; 
+  color: rgb(255, 254, 254);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(255, 254, 254);
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  background-color: rgba(255, 254, 254, 0.2);
+}
+
+.button:active {
+  background-color: rgba(255, 254, 254, 0.5);
+}
+
+.row{
+  margin: 4px 0;
+}
+
+.row input{
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid rgb(255, 254, 254);
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.bg-red{
+  background: red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
